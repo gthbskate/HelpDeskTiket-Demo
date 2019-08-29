@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Help Desk Ticket</title>
+    <link rel="stylesheet" href="../my-profile/css/my-profile.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+   <div id="main" class="container-fluid">
+       <div id="head-menu1" class="row">
+            <div id="menu1" class="col-12 navbar">
+                <img id="logo" class="img" src="../my-profile/image/help-desk-icon-png-4.png" alt="Logo">
+                <a class= "bttn btn btn-primary" href= "../menu-messages/index.html" role= "button" > Messages </a>
+                <a class= "bttn btn btn-primary" href= "../technical-tickets/index.html" role= "button" > Tickets </a>
+                <a class= "bttn btn btn-primary" href= "../profile/index.html" role= "button" > Profile </a>
+                <a class= "bttn btn btn-primary" href= "../log-in/index.html" role= "button" > Log out </a>
+            </div>
+        </div>
+        <div id="menu-content" class="row">
+            <div id="menu2" class="col-2 navbar flex-column">
+                <p id="tex-menu" class="text">Menu Profile</p>
+                <a class= "bttn btn btn-vertical btn-outline-success" href= "../my-profile/index.html" role= "button" ata-toggle="tooltip" data-placement="right" title="Descriptive text."> My profile </a>
+                <a class= "bttn btn btn-vertical btn-outline-success" href= "../add-profile/index.html" role= "button" ata-toggle="tooltip" data-placement="right" title="Descriptive text."> Add profile </a>
+                <a class= "bttn btn btn-vertical btn-outline-success" href= "../delete-profile/index.html" role= "button" ata-toggle="tooltip" data-placement="right" title="Descriptive text."> Delete profile </a>
+            </div>
+            <div id="content" class="col-10">
+                <div class="jumbotron">
+                    <div class="container">
+                        <form>
+                            <div class="row">
+                                <div class="col-4 form-group">
+                                    <label for="user-name1">User Name</label>
+                                    <input type="text" class="form-control" id="user-name1" aria-describedby="user-name" placeholder="Enter User Name">
+                                    <small id="user-name2" class="form-text text-muted">Verify that the user name is correct.</small>
+                                </div>   
+                                <div id="departament" class="col-4 form-group">
+                                    <label for="departament"> Departament </label>
+                                    <select id="input-departament" class="form-control">
+                                        <option selected> Choose... </option>
+                                        <option> New Business </option>
+                                        <option> Partners </option>
+                                        <option> Workshop </option>
+                                        <option> Project Manager  </option>
+                                        <option> Administration </option>
+                                        <option> IT </option>
+                                    </select>
+                                </div>    
+                                <div class="col-4 form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter @email">
+                                    <small id="emailHelp" class="form-text text-muted">Verify that the email is correct.</small>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col form-group">
+                                    <label for="name1">Name</label>
+                                    <input type="text" class="form-control" id="name1" aria-describedby="name" placeholder="Enter Name">
+                                    <small id="name2" class="form-text text-muted">Verify that the name is correct.</small>
+                                    <button id="send" type="submit" class="btn btn-danger">Submit</button>
+                                </div>
+                                <div class="col form-group">
+                                    <label for="last-name1">Last Name</label>
+                                    <input type="text" class="form-control" id="last-name1" aria-describedby="name" placeholder="Enter Last Name">
+                                    <small id="last-name2" class="form-text text-muted">Verify that the last name is correct.</small>
+                                </div> 
+                                <div class="col form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <small id="password1" class="form-text text-muted">Verify your password.</small>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        <div id="footering" class="row">
+            <div id="foot" class="col-12">
+                <p id="text-foot">Administration ticket system</p>
+            </div>
+        </div>
+
+   </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@mixin jumbotron1 {
+    align-self: center;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px 0px black;
+}
+@mixin jumbotron2 {
+    height: 80vh;
+    overflow: scroll;
+    @include jumbotron1
+    
+}

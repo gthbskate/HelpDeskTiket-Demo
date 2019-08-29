@@ -1,0 +1,52 @@
+@import "variables";
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $back2;
+    min-height: 100vh;
+}
+.box{
+    justify-content: flex-end;
+}
+
+#header-login{
+    background-color: $back5;
+    color: $fcolor1;
+    font-weight: $font-weight-bold;
+    font-size: $h1-font-size;
+    text-align: right;
+    .logo{
+        height: 30px;
+}
+
+}
+
+.boxlogin {
+    border-radius: 4px;
+    box-shadow: 0px 4px 20px $back5;
+    margin: 80px auto;
+    width: 350px;    
+}
+
+input[type="submit"]{
+    margin-top: 15px;
+}
+
+footer{
+    background-color: $back5;
+    color: $fcolor1;
+    font-weight: $font-weight-light;
+    font-size: $h3-font-size;
+    text-align: left;
+    height: 30px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+  
